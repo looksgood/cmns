@@ -1,0 +1,23 @@
+{
+   "name": "cmns",
+   "description": "CMNS ( Cloud Message Notify Service) interface written in node.js",
+   "version": "0.0.1",
+   "keywords": ["cmns", "push", "notification", "yunos", "CMNS"],
+   "author": "looksgood <liangjie.wanglj@alibaba-inc.com> ",
+   "main": "./index",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/looksgood/cmns.git"
+   },
+   "bugs": {
+      "email": "liangjie.wanglj@alibaba-inc.com",
+      "url": "https://github.com/looksgood/cmns/issues"
+   },
+   "dependencies" : {
+      "q" : ">=0.8.5"
+   },
+   "engines": {
+      "node": ">=0.6.5"
+   },
+   "license": "MIT"
+}
