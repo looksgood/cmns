@@ -1,4 +1,8 @@
-exports.Connection = require("./lib/connection").Connection;
-exports.Errors = require("./lib/connection").Errors;
-exports.Notification = require("./lib/notification").Notification;
-exports.Device = require("./lib/notification").Device;
+exports.Connection = require('./lib/connection');
+exports.Notification = require('./lib/notification');
+
+exports.Device = require('./lib/device');
+exports.device = exports.Device;
+
+exports.Errors = require('./lib/errors');
+exports.error = exports.Errors;

@@ -90,6 +90,7 @@ function checkFinished(length, count, defer) {
 
 init().then(function() {
   console.log('ok~');
+  
 }, function onError(error) {
   // Handle any error from step1 through step4
   console.log('error: ', error)
