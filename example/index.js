@@ -62,6 +62,7 @@ notification.payload = {
 };
 
 notification.title = "a good news !";
+notification.priority = 1
 
 connection.sendNotification(notification);
 
