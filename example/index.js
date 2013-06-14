@@ -51,7 +51,7 @@ var options = {
 */
 var connection = new cmns.Connection(options);
 
-var goodToken = '01F82C22035CC1D00160FF152E72DF3E94';
+var goodToken = '01F82C22035CC1D00160FF152E72DF3E94';//'013B9958EB524D45EFF4AC53A7CA5884BC';
 notification = new cmns.Notification(),
 device = new cmns.Device(goodToken);
 
